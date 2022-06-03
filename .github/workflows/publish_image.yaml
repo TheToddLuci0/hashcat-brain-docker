@@ -44,7 +44,6 @@ jobs:
             thetoddluci0/hashcat-brain
             ghcr.io/${{ github.repository }}
           tags: |
-            # minimal
             type=edge
       
       - name: Build and push Docker images
